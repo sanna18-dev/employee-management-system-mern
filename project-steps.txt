@@ -1,0 +1,54 @@
+git remote add origin https://github.com/sanna18-dev/employee-management-system-mern.git
+Phase 1: Repo Setup
+🔹 Step 1. Create GitHub Repository
+
+Go to GitHub
+.
+
+Click New repository → Name it:
+
+employee-management-system-mern
+
+
+Choose:
+
+Public (so recruiters can see it)
+
+Add README.md (yes)
+
+Add Node .gitignore (important)
+
+License → MIT (optional but professional)
+
+🔹 Step 2. Local Project Structure
+
+On your PC:
+
+mkdir employee-management-system-mern
+cd employee-management-system-mern
+mkdir backend frontend
+
+
+Now your repo looks like:
+
+employee-management-system-mern/
+├── backend/   # Node.js + Express + MongoDB
+├── frontend/  # React + Vite + Tailwind
+└── README.md  # Project documentation
+
+🔹 Step 3. Initialize Git
+
+Inside root folder:
+
+git init
+git remote add origin https://github.com/<your-username>/employee-management-system-mern.git
+
+🔹 Step 4. Add .gitignore
+
+Create .gitignore in root:
+
+node_modules
+.env
+dist
+build
+.DS_Store
